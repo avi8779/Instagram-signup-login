@@ -1,0 +1,39 @@
+.main{
+    display: grid;
+    place-items: center;
+}
+
+.box{
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin-top: 100px;
+    border: 1px solid black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form input{
+    margin-top: 5px;
+    width: 100%;
+    padding: 5px;
+}
+form button {
+    width: 105%;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: rgb(1, 66, 217);
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+span{
+    color: blue;
+    cursor: pointer;;
+}
